@@ -54,20 +54,7 @@ function gotPitch(error, frequency) {
 }
 
 function mousePressed() {
-  let chooseColor = random(6);
-  if (chooseColor < 1) {
-    stroke(228, 212, 57);
-  } else if (chooseColor < 2) {
-    stroke(216, 130, 21);
-  } else if (chooseColor < 3) {
-    stroke(6, 38, 51);
-  } else if (chooseColor < 4) {
-    stroke(23, 119, 47);
-  } else if (chooseColor < 5) {
-    stroke(56, 8, 50);
-  } else {
-    stroke(232, 45, 30);
-  }
+  userStartAudio();
 }
 
 function draw() {
